@@ -1,0 +1,31 @@
+{  
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "*": ["node_modules/*"],
+      "@mui/material/styles": ["node_modules/@mui/material/styles"],
+      "@mui/material/*": ["node_modules/@mui/material/*"],
+      "@mui/material": ["node_modules/@mui/material"]
+    },
+    "types": ["node", "jest"],
+    "skipLibCheck": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "example"]
+}

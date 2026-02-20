@@ -1,0 +1,26 @@
+[00:18:32.856] [INFO] storybook v10.2.10
+[00:18:37.390] [DEBUG] Getting package.json info for C:/Users/abhishek.ghortale/Downloads/test-git-repo/my-mui-lib/package.json...
+[00:18:39.473] [INFO] Starting...
+[00:18:40.133] [DEBUG] Starting preview..
+[00:18:40.192] [INFO] Addon-docs: using MDX3
+[00:18:40.338] [INFO] Using implicit CSS loaders
+[00:18:40.390] [WARN] Storybook support for Create React App is now a separate preset.
+[00:18:40.392] [WARN] To use the new preset, install `@storybook/preset-create-react-app` and add it to the list of `addons` in your `.storybook/main.js` config file.
+[00:18:40.397] [WARN] The built-in preset has been disabled in Storybook 6.0.
+[00:18:40.425] [INFO] Using default Webpack5 setup
+[00:18:46.622] [ERROR] Failed to build the preview
+[00:18:46.628] [WARN] Force closed preview build
+[00:18:46.631] [ERROR] [38;2;241;97;97mSB_BUILDER-WEBPACK5_0003 (WebpackCompilationError): There were problems when compiling your code with Webpack.
+Run Storybook with --debug-webpack for more information.[39m
+    at starter (file:///C:/Users/abhishek.ghortale/Downloads/test-git-repo/my-mui-lib/node_modules/@storybook/builder-webpack5/dist/index.js:799:11)
+    at starter.next (<anonymous>)
+    at Module.start (file:///C:/Users/abhishek.ghortale/Downloads/test-git-repo/my-mui-lib/node_modules/@storybook/builder-webpack5/dist/index.js:857:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async storybookDevServer (file:///C:/Users/abhishek.ghortale/Downloads/test-git-repo/my-mui-lib/node_modules/storybook/dist/core-server/index.js:7241:83)
+    at async buildOrThrow (file:///C:/Users/abhishek.ghortale/Downloads/test-git-repo/my-mui-lib/node_modules/storybook/dist/core-server/index.js:4504:12)
+    at async buildDevStandalone (file:///C:/Users/abhishek.ghortale/Downloads/test-git-repo/my-mui-lib/node_modules/storybook/dist/core-server/index.js:7611:66)
+    at async withTelemetry (file:///C:/Users/abhishek.ghortale/Downloads/test-git-repo/my-mui-lib/node_modules/storybook/dist/_node-chunks/chunk-S3MWHNYJ.js:218:12)
+    at async dev (file:///C:/Users/abhishek.ghortale/Downloads/test-git-repo/my-mui-lib/node_modules/storybook/dist/bin/core.js:2734:3)
+    at async _Command.<anonymous> (file:///C:/Users/abhishek.ghortale/Downloads/test-git-repo/my-mui-lib/node_modules/storybook/dist/bin/core.js:2803:92)
+[00:18:46.654] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
