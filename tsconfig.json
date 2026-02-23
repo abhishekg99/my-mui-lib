@@ -1,6 +1,10 @@
-{  
+{
   "compilerOptions": {
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
     "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -12,9 +16,9 @@
     },
     "types": ["node", "jest"],
     "skipLibCheck": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "outDir": "dist",
-    "target": "es5",
+    "target": "ESNext",
     "module": "esnext",
     "lib": ["dom", "esnext"],
     "sourceMap": true,

@@ -1,0 +1,52 @@
+
+> my-mui-lib@1.0.0 build-storybook
+> storybook build --output-dir=C:\Users\ABHISH~1.GHO\AppData\Local\Temp\chromatic--86872-REAZq0hD66Tq
+
+
+[90m┌[39m  Building storybook v10.2.10
+[90m│[39m
+[32m◇[39m  Cleaning outputDir:
+[90m│[39m  [36m../../../../ABHISH~1.GHO/AppData/Local/Temp/chromatic--86872-REAZq0hD66Tq[39m
+[90m│[39m
+[32m◇[39m  Loading presets
+[90m│[39m
+[32m◇[39m  Building manager..
+[90m│[39m
+[34m●[39m  Building preview..
+[90m│[39m
+[34m●[39m  Addon-docs: using MDX3
+[90m│[39m
+[34m●[39m  Using implicit CSS loaders
+[90m│[39m
+[33m▲[39m  Storybook support for Create React App is now a separate preset.
+[90m│[39m
+[33m▲[39m  To use the new preset, install `@storybook/preset-create-react-app`
+[90m│[39m  and add it to the list of `addons` in your `.storybook/main.js` config
+[90m│[39m  file.
+[90m│[39m
+[33m▲[39m  The built-in preset has been disabled in Storybook 6.0.
+[90m│[39m
+[34m●[39m  Using default Webpack5 setup
+[90m│[39m
+[33m▲[39m  asset size limit: The following asset(s) exceed the recommended size
+[90m│[39m  limit (244 KiB).
+[90m│[39m  This can impact web performance.
+[90m│[39m  Assets:
+[90m│[39m  980.1dacd586.iframe.bundle.js (1.03 MiB)
+[90m│[39m  946.cf26c781.iframe.bundle.js (564 KiB)
+[90m│[39m
+[33m▲[39m  entrypoint size limit: The following entrypoint(s) combined asset size
+[90m│[39m  exceeds the recommended limit (244 KiB). This can impact web
+[90m│[39m  performance.
+[90m│[39m  Entrypoints:
+[90m│[39m  main (575 KiB)
+[90m│[39m  runtime~main.c0541aea.iframe.bundle.js
+[90m│[39m  946.cf26c781.iframe.bundle.js
+[90m│[39m  main.733a406f.iframe.bundle.js
+
+[90m│[39m
+[32m◇[39m  Output directory:
+[90m│[39m  C:/Users/ABHISH~1.GHO/AppData/Local/Temp/chromatic--86872-REAZq0hD66Tq
+[90m│[39m
+[90m└[39m  Storybook build completed successfully
+
